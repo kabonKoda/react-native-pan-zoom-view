@@ -1,21 +1,21 @@
 {
   "name": "react-native-image-pan-zoom",
   "version": "2.1.12",
-  "description": "react native image pan zoom",
-  "main": "built/index.js",
-  "types": "built/index.d.ts",
+  "description": "react native pan zoom view",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "scripts": {
     "prepare": "rm -rf built && tsc",
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
     "prettier": "prettier --write src",
-    "start": "tsc -w --outDir demo/built"
+    "postinstall": "tsc -w --outDir build"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ascoders/react-native-image-zoom.git"
+    "url": "https://github.com/kabonkoda/react-native-pan-zoom-view.git"
   },
   "keywords": [
-    "image-zoom"
+    "pan-zoom"
   ],
   "author": "ascoders",
   "license": "ISC",
